@@ -1,7 +1,7 @@
 package br.com.caelum.contas.modelo;
 
-
-
+//endereço para commit: https://github.com/biano14/test_egit.git
+//https://www.alura.com.br/apostila-java-orientacao-objetos/resolucoes-exercicios
 public class Conta {
 	protected double saldo;
 	private String titular, agencia;
@@ -55,5 +55,4 @@ public class Conta {
 	        return "[Titular = " + titular.toUpperCase() + ", Número = "
 	          + numero + ", Agência=" + agencia + "]";
 	    }
-	//Test
 }
